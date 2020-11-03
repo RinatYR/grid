@@ -1,0 +1,28 @@
+.body{
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+.wrap{
+    width: 1170px;
+    margin: 0 auto;
+}
+.button{
+    display: inline-block;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.25px;
+    color: #fff;
+    padding: 14.6px 44.5px 13.4px;
+    text-decoration: none;
+    background: #6C5CE7;
+    border-radius: 999px;
+}
+.button_m{
+    font-size: 32px;
+    line-height: 48px;
+    letter-spacing: -0.5px;
+    padding: 17.5px 49.5px 16.5px;
+}
