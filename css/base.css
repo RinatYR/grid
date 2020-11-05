@@ -1,28 +1,50 @@
+:root{
+    font-size: 10px;
+    --white: #ffffff;
+    --black: #2D3436;
+    --purple: #6C5CE7;
+    --orange: #FDCB6E;
+    --font-thin: 100;
+    --font-extra-light: 200;
+    --font-light: 300;
+    --font-regular: 400;
+    --font-medium: 500;
+    --font-semi-bold: 600;
+    --font-bold: 700;
+    --font-extra-bold: 800;
+    --font-black: 900;
+}
+
 .body{
     margin: 0;
     font-family: 'Inter', sans-serif;
 }
 .wrap{
-    width: 1170px;
+    width: 117em;
     margin: 0 auto;
 }
 .button{
     display: inline-block;
     font-family: 'Inter';
     font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 36px;
-    letter-spacing: 0.25px;
-    color: #fff;
-    padding: 14.6px 44.5px 13.4px;
+    font-weight: var(--font-bold);
+    font-size: 2.4rem;
+    line-height: 3.6rem;
+    letter-spacing: 0.025rem;
+    color: var(--white);
+    padding: 1.46rem 4.45rem 1.34rem;
     text-decoration: none;
-    background: #6C5CE7;
-    border-radius: 999px;
+    background: var(--purple);
+    border-radius: 99.9rem;
 }
 .button_m{
-    font-size: 32px;
-    line-height: 48px;
-    letter-spacing: -0.5px;
-    padding: 17.5px 49.5px 16.5px;
+    font-size: 3.2rem;
+    line-height: 4.8rem;
+    letter-spacing: -0.05rem;
+    padding: 1.75rem 4.95rem 1.65rem;
+}
+
+
+@media screen and (max-width: 1300px){
+
 }

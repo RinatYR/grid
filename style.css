@@ -1,36 +1,5 @@
-@import 'css/typography.css';
 @import 'css/base.css';
+@import 'css/typography.css';
 @import 'css/header.css';
 @import 'css/main-block.css';
-
-.portfolio__more{
-    display: inline-block;
-}
-.portfolio__more-info{
-    width: 150px;
-    min-width: 100%;
-    margin-bottom: 30px;
-}
-.portfolio__banner{
-    background: url() center center no-repeat;
-    background-size: cover;
-    border-radius: 20px;
-    overflow: hidden;
-    text-align: center;
-}
-.portfolio__banner-more{
-    background-image: url('img/banner1.jpg');
-    min-height: 464px;
-    margin-top: 27px;
-    padding: 43px 15px;
-    box-sizing: border-box;
-}
-.portfolio__banner-text{
-    color: #fff;
-    margin: 0;
-}
-.portfolio__text-bold{
-    font-weight: 700;
-    letter-spacing: 0.2px;
-    margin-bottom: 2px;
-}
+@import 'css/portfolio.css';

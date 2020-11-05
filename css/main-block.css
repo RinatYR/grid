@@ -20,7 +20,7 @@
 .main-block::after{
     content: "";
     display: block;
-    background: url('img/circles.svg') top right no-repeat;
+    background: url('../img/circles.svg') top right no-repeat;
     background-size: contain;
     height: 290px;
     width: 209px;
@@ -37,7 +37,7 @@
     color: #2D3436;
     width: 1000px;
     margin: 0 auto;
-    margin-bottom: 22px;
+    margin-bottom: 45px;
 }
 .main-block__title::first-line{
     font-weight: 800;
