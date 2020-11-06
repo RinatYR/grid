@@ -2,8 +2,12 @@
     font-size: 10px;
     --white: #ffffff;
     --black: #2D3436;
+    --dark-black: #000000;
     --purple: #6C5CE7;
     --orange: #FDCB6E;
+    --yellow: #FFEAA7;
+    --red: #D63031;
+    --light-blue:#55EFC4;
     --font-thin: 100;
     --font-extra-light: 200;
     --font-light: 300;

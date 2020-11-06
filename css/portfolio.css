@@ -3,67 +3,67 @@
 }
 .portfolio__more{
     display: inline-block;
-    padding-bottom: 72px;
+    padding-bottom: 7.2rem;
 }
 .portfolio__more-info{
-    width: 150px;
+    width: 15rem;
     min-width: 100%;
-    margin-bottom: 30px;
+    margin-bottom: 3rem;
 }
 .portfolio__banner{
     position: relative;
     background: url() center center no-repeat;
     background-size: cover;
-    border-radius: 20px;
+    border-radius: 2rem;
     overflow: hidden;
     text-align: center;
 }
 .portfolio__banner-more{
     background-image: url('../img/banner1.jpg');
-    min-height: 464px;
-    margin-top: 27px;
-    padding: 43px 15px;
+    min-height: 46.4rem;
+    margin-top: 2.7rem;
+    padding: 4.3rem 1.5rem;
     box-sizing: border-box;
 }
 .portfolio__banner-text{
-    color: #fff;
+    color: var(--white);
     margin: 0;
 }
 .portfolio__title{
     margin: 0;
-    color: #fff;
-    text-shadow: 0px 4px 0px #000000;
+    color: var(--white);
+    text-shadow: 0 .4rem 0 var(--dark-black);
 }
 .portfolio__text{
     margin: 0;
-    margin-top: -5px;
+    margin-top: -.5rem;
 }
 .portfolio__text-bold{
-    font-weight: 700;
-    letter-spacing: 0.2px;
-    margin-bottom: 2px;
+    font-weight: var(--font-bold);
+    letter-spacing: .02rem;
+    margin-bottom: .2rem;
 }
 .portfolio__banner_giant{
-    width: 470px;
-    height: 380px;
+    width: 47rem;
+    height: 38rem;
     display: flex;
     align-items: flex-end;
     justify-content: center;
-    padding: 17.5px;
+    padding: 1.75rem;
     box-sizing: border-box;
 }
 .porfolio__banner_small{
-    width: 170px;
-    height: 222px;
+    width: 17rem;
+    height: 22.2rem;
 }
 .porfolio__banner_mid{
-    width: 270px;
-    height: 284px;
+    width: 27rem;
+    height: 28.4rem;
 }
 .porfolio__banner_big{
-    width: 370px;
-    height: 356px;
-    padding: 17.5px;
+    width: 37rem;
+    height: 35.6rem;
+    padding: 1.75rem;
     box-sizing: border-box;
 }
 .portfolio__image{
@@ -81,12 +81,12 @@
     justify-content: space-between;
     align-content: space-between;
     flex: 1;
-    margin-left: 30px;
+    margin-left: 3rem;
 }
 .portfolio__wrap{
     display: flex;
     flex-wrap: wrap;
-    width: 370px;
+    width: 37rem;
     justify-content: space-between;
     align-content: flex-end;
 }
