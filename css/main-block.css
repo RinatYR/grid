@@ -35,15 +35,15 @@
     text-align: center;
     letter-spacing: -.1rem;
     color: var(--black);
-    width: 100rem;
+    width: 15.6em;
     margin: 0 auto;
     margin-bottom: 4.5rem;
 }
 .main-block__title::first-line{
     font-weight: var(--font-extra-bold);
-    font-size: 9.6rem;
-    line-height: 10.4rem;
-    letter-spacing: -.3rem;
+    font-size: 1.5em;
+    line-height: 1.08em;
+    letter-spacing: -.03em;
 }
 .main-block__title b{
     color: var(--red);
@@ -60,4 +60,14 @@
     background: var(--light-blue);
     border-radius: 99.9rem;
     z-index: -1;
+}
+
+@media screen and (max-width: 1000px){
+    .main-block{
+        padding-top: 12rem;
+        box-sizing: border-box;
+    }
+    .main-block__title{
+        font-size: 4rem;
+    }
 }

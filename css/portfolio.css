@@ -93,3 +93,41 @@
 .portfolio__banner-desc{
     width: 100%;
 }
+
+@media screen and (max-width: 1000px){
+    .portfolio{
+        font-size: 2rem;
+        width: 110vw;
+    }
+    .portfolio__content{
+        justify-content: flex-start;
+    }
+    .portfolio_hide{
+        display: none;
+    }
+    .portfolio__banner-more{
+        background-image: url('../img/banner1-mob.jpg');
+        width: 13em;
+        height: 22.3em;
+        min-height: auto;
+    }
+    .portfolio__banner_giant{
+        width: 22.4em;
+        height: 18.3em;
+        padding: 1.75em;
+    }
+    .porfolio__banner_small{
+        width: 8.4em;
+        height: 10.7em;
+    }
+    .porfolio__banner_mid{
+        width: 13em;
+        height: 13.6em;
+    }
+    .porfolio__banner_big{
+        width: 17.9em;
+        height: 18.2em;
+        padding: 1.75em;
+        box-sizing: border-box;
+    }
+}

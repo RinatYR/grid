@@ -13,6 +13,11 @@
 <body class="body">
     <header class="header">
         <div class="wrap header__wrap">
+            <a class="burger" href="#">
+                <div class="burger__line burger__line_top"></div>
+                <div class="burger__line burger__line_mid"></div>
+                <div class="burger__line burger__line_bot"></div>
+            </a>
             <a href="/" class="logo">
                 <div class="logo__img">
                     <svg width="70" height="64" viewBox="0 0 70 64" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -47,15 +52,18 @@
                 <div class="portfolio">
                     <div class="portfolio__more">
                         <div class="portfolio__more-info">
-                            <p class="text portfolio__text">Use mixed grid with imagery, replace with your own photos and descriptions
+                            <p class="text portfolio__text portfolio_hide">Use mixed grid with imagery, replace with your own photos and descriptions
                             </p>
                             <div class="portfolio__banner portfolio__banner-more">
                                 <p class="text portfolio__text-bold portfolio__banner-text">We aimed to deliver HQ
                                     templates for Figma</p>
                                 <p class="text text_small portfolio__banner-text">Used by 123 people</p>
                             </div>
+                            <div class="portfolio__banner porfolio__banner_small">
+                                <img src="img/banner1-mob-dop.jpg" alt="" class="portfolio__image">
+                            </div>
                         </div>
-                        <a href="#" class="button button_m">Learn more</a>
+                        <a href="#" class="button button_m portfolio_hide">Learn more</a>
                     </div>
                     <div class="portfolio__content">
                         <div class="portfolio__banner portfolio__banner_giant">
@@ -63,23 +71,34 @@
                             <p class="title title_h3 portfolio__title">Consider it done!</p>
                         </div>
                         <div class="portfolio__wrap">
-                            <p class="text portfolio__banner-desc">This is multipurpose grid, it fits for portfolio, services or agency web
+                            <p class="text portfolio__banner-desc portfolio_hide">This is multipurpose grid, it fits for portfolio, services or agency web
                                 site</p>
                             <div class="portfolio__banner porfolio__banner_small">
                                 <img src="img/banner5.jpg" alt="" class="portfolio__image">
+                                <img src="img/banner5-mob.jpg" alt="" class="portfolio__image">
                             </div>
-                            <div class="portfolio__banner porfolio__banner_small">
+                            <div class="portfolio__banner porfolio__banner_small portfolio_hide">
                                 <img src="img/banner6.jpg" alt="" class="portfolio__image">
                             </div>
                         </div>
-                        <div class="portfolio__banner porfolio__banner_mid">
-                            <img src="img/banner3.jpg" alt="" class="portfolio__image">
+                        <div class="portfolio__mobile-wrap">
+                            <div class="portfolio__banner porfolio__banner_mid">
+                                <img src="img/banner3.jpg" alt="" class="portfolio__image">
+                                <img src="img/banner3-mob.jpg" alt="" class="portfolio__image">
+                            </div>
+                            <div class="portfolio__banner porfolio__banner_mid">
+                                <img src="img/banner3-mob-dop.jpg" alt="" class="portfolio__image">
+                            </div>
                         </div>
-                        <div class="portfolio__banner porfolio__banner_big">
-                            <img src="img/banner4.jpg" alt="" class="portfolio__image">
-                            <p class="title title_h3 portfolio__title">See my goal?</p>
+                        <div class="portfolio__mobile-wrap">
+                            <div class="portfolio__banner porfolio__banner_big">
+                                <img src="img/banner4.jpg" alt="" class="portfolio__image">
+                                <img src="img/banner4-mob.jpg" alt="" class="portfolio__image">
+                                <p class="title title_h3 portfolio__title">See my goal?</p>
+                            </div>
+                            <a href="#" class="button button_m">Learn more</a>
                         </div>
-                        <div class="portfolio__banner porfolio__banner_small">
+                        <div class="portfolio__banner porfolio__banner_small portfolio_hide">
                             <img src="img/banner7.jpg" alt="" class="portfolio__image">
                         </div>
                     </div>
