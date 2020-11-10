@@ -2,16 +2,16 @@
     min-height: 100vh;
     position: relative;
     overflow: hidden;
-    padding-top: 80px;
+    padding-top: 8rem;
 }
 .main-block::before{
     content: "";
     display: block;
-    height: 768px;
-    width: 900px;
-    background: #FFEAA7;
-    border-radius: 99px;
-    transform:  translate(197px, -276px) rotate(-45deg);
+    height: 76.8rem;
+    width: 90rem;
+    background: var(--yellow);
+    border-radius: 9.9rem;
+    transform:  translate(19.7rem, -27.6rem) rotate(-45deg);
     position: absolute;
     top: 0;
     right: 0;
@@ -22,31 +22,31 @@
     display: block;
     background: url('../img/circles.svg') top right no-repeat;
     background-size: contain;
-    height: 290px;
-    width: 209px;
+    height: 29rem;
+    width: 20.9rem;
     position: absolute;
-    top: 18px;
+    top: 1.8rem;
     right: 0;
 }
 .main-block__title{
-    font-weight: 900;
-    font-size: 64px;
-    line-height: 115px;
+    font-weight: var(--font-black);
+    font-size: 6.4rem;
+    line-height: 11.5rem;
     text-align: center;
-    letter-spacing: -1px;
-    color: #2D3436;
-    width: 1000px;
+    letter-spacing: -.1rem;
+    color: var(--black);
+    width: 100rem;
     margin: 0 auto;
-    margin-bottom: 45px;
+    margin-bottom: 4.5rem;
 }
 .main-block__title::first-line{
-    font-weight: 800;
-    font-size: 96px;
-    line-height: 104px;
-    letter-spacing: -3px;
+    font-weight: var(--font-extra-bold);
+    font-size: 9.6rem;
+    line-height: 10.4rem;
+    letter-spacing: -.3rem;
 }
 .main-block__title b{
-    color: #D63031;
+    color: var(--red);
     position: relative;
 }
 .main-block__title b::before{
@@ -57,7 +57,7 @@
     left: -5.5%;
     width: 113.5%;
     height: 44%;
-    background: #55EFC4;
-    border-radius: 999px;
+    background: var(--light-blue);
+    border-radius: 99.9rem;
     z-index: -1;
 }
