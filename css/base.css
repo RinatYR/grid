@@ -1,7 +1,9 @@
 :root{
     font-size: 10px;
     --white: #ffffff;
+    --milk: #FCF8EA;
     --black: #2D3436;
+    --gray: #5C5C5C;
     --dark-black: #000000;
     --purple: #6C5CE7;
     --orange: #FDCB6E;
@@ -75,3 +77,36 @@
         width: 90%;
     }
 }
+
+@media screen and (max-width: 690px){
+    .button_m{
+        font-size: 2.5rem;
+        padding: 1.2rem 4rem;
+    }
+}
+
+@media screen and (max-width: 560px){
+    .button_m{
+        font-size: 2rem;
+        padding: 0.5rem 3rem;
+    }
+}
+
+@media screen and (max-width: 560px){
+    .button_m{
+        font-size: 1.6rem;
+        line-height: 1.4;
+        padding: 1.2rem 3rem;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .wrap{
+        width: 91.5%;
+    }
+    .button{
+        font-size: 1.8rem;
+        line-height: 3.2rem;
+    }
+}
+
