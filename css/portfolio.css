@@ -96,6 +96,9 @@
 .portfolio__banner-desc{
     width: 100%;
 }
+.portfolio_hide{
+    display: none;
+}
 
 @media screen and (max-width: 1000px){
     .portfolio{
@@ -112,10 +115,10 @@
         flex: 0 0 auto;
     }
     .portfolio_hide{
-        display: none;
+        display: block;
     }
     .portfolio_hide_hd{
-        display: block;
+        display: none;
     }
     .portfolio__banner-more{
         background-image: url('../img/banner1-mob.jpg');
