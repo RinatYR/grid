@@ -96,7 +96,7 @@
 .portfolio__banner-desc{
     width: 100%;
 }
-.portfolio_hide{
+.portfolio_hide_hd{
     display: none;
 }
 
@@ -114,10 +114,10 @@
         width: 45em;
         flex: 0 0 auto;
     }
-    .portfolio_hide{
+    .portfolio_hide_hd{
         display: block;
     }
-    .portfolio_hide_hd{
+    .portfolio_hide{
         display: none;
     }
     .portfolio__banner-more{

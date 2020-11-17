@@ -3,3 +3,109 @@
 @import 'css/header.css';
 @import 'css/main-block.css';
 @import 'css/portfolio.css';
+@import 'css/services.css';
+
+.pricing{
+    text-align: center;
+}
+.pricing__main-title{
+    margin: 0;
+    margin-bottom: 3rem;
+}
+.pricing__subtitle{
+    margin: 0;
+    font-weight: var(--font-bold);
+}
+.pricing__cards{
+    text-align: left;
+    display: flex;
+    margin-top: 3.7rem;
+}
+.pricing__card{
+    flex: 1 1;
+    margin-right: 3rem;
+    border-radius: 1.6rem;
+    padding: 3.2rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.pricing__card:last-child{
+    margin-right: 0;
+}
+.pricing__card:nth-child(2){
+    box-shadow: 0 0.8rem 2rem rgba(0, 0, 0, 0.25);
+}
+.pricing__card:nth-child(2)::before{
+    content: "";
+    display: block;
+    height: 12.6rem;
+    width: 20rem;
+    background: url(img/wiggle.svg) center center no-repeat;
+    background-size: cover;
+    position: absolute;
+    bottom: -3rem;
+    left: -3rem;
+    z-index: -2;
+}
+.pricing__card:nth-child(2)::after{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: var(--white);
+    z-index: -1;
+}
+.pricing__title{
+    font-weight: var(--font-bold);
+    color: var(--purple);
+    margin: 0;
+    margin-bottom: 1.6rem;
+}
+.pricing__price-num{
+    font-weight: var(--font-bold);
+    margin-right: 0.7rem;
+}
+.pricing__price-period{
+    font-weight: var(--font-extra-bold);
+}
+.pricing__features{
+    margin: 0;
+    margin-top: 2.7rem;
+    list-style: none;
+    padding: 0;
+    margin-bottom: auto;
+}
+.pricing__feature{
+    margin-bottom: 2.4rem;
+    display: flex;
+    align-items: center;
+}
+.pricing__feature:last-child{
+    margin-bottom: 2rem;
+}
+.pricing__feature::before{
+    content: "";
+    display: block;
+    height: 3.2rem;
+    width: 3.2rem;
+    background: url('img/accept.svg') var(--gray-soft) center center no-repeat;
+    background-size: 40%;
+    border-radius: 100%;
+    margin-right: 1.6rem;
+}
+.pricing__card:nth-child(2) .pricing__feature::before{
+    background-color: var(--orange);
+}
+.pricing__card:last-child .pricing__feature::before{
+    background-color: var(--light-blue);
+}
+.pricing__button{
+    text-align: center;
+    padding: 1.36rem 1.5rem;
+    border-radius: 1.6rem;
+}
