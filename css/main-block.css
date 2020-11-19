@@ -49,7 +49,7 @@
     letter-spacing: -.03em;
 }
 .main-block__title b{
-    display: inline-block;
+    /* display: inline-block; */ /*слово fine уменьшалось слишком сильно*/
     color: var(--red);
     position: relative;
 }
@@ -119,7 +119,7 @@
         letter-spacing: 0.025rem;
         color: var(--black);
         text-align: center;
-        width: 90%;
+        width: 80%;
         margin: 0 auto 2rem;
     }
     .main-block__arrow{
@@ -145,4 +145,9 @@
         border-radius: 5.448rem;
         transform: translate(27.2rem, -8.3rem) rotate(-45deg);
     }
+
+    .main-block__title b{
+        display: inline-block;   
+    }
 }
+
