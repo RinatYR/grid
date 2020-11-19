@@ -5,3 +5,7 @@
 @import 'css/portfolio.css';
 @import 'css/services.css';
 @import 'css/pricing.css';
+
+/* input, textarea, button{
+    font-family: inherit;
+} */
