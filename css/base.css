@@ -103,6 +103,10 @@
         font-size: 2rem;
         padding: 0.5rem 3rem;
     }
+    .button_s{
+        font-size: 1.35rem;
+        padding: 0.2rem 2rem;
+    }
 }
 
 @media screen and (max-width: 560px){
