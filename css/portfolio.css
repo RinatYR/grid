@@ -96,6 +96,13 @@
 .portfolio__banner-desc{
     width: 100%;
 }
+.portfolio_hide_hd{
+    display: none;
+}
+
+.portfolio_hide_xs{    /* слева над картинками появлялась стрелочка*/
+    display: none;
+}
 
 @media screen and (max-width: 1000px){
     .portfolio{
@@ -111,11 +118,12 @@
         width: 45em;
         flex: 0 0 auto;
     }
-    .portfolio_hide{
-        display: none;
-    }
     .portfolio_hide_hd{
         display: block;
+    }
+
+    .portfolio_hide{
+        display: none;
     }
     .portfolio__banner-more{
         background-image: url('../img/banner1-mob.jpg');
@@ -223,5 +231,8 @@
         padding: 0.3rem 2.9rem;
         font-size: 1.4rem;
 
+    }
+    .portfolio_hide_xs{
+        display: flex;
     }
 }
